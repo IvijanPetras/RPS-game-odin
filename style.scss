@@ -1,0 +1,23 @@
+body {
+  background-color: darkslategrey;
+}
+h1 {
+  text-align: center;
+}
+.score {
+  color: beige;
+}
+.container {
+  text-align: center;
+}
+
+.img-clicked {
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+.players {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 28px;
+  color: antiquewhite;
+}
