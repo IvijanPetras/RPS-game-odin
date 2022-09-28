@@ -13,13 +13,13 @@ addEventListener("DOMContentLoaded", () => {
   const choice3 = document.querySelector(".scissors2");
 
   function winner() {
-    if (plScore > 2) {
+    if (plScore > 4) {
       alert("Player wins!");
       plScore = 0;
       pcScore = 0;
       player.innerHTML = "Player: 0";
       pc.innerHTML = "PC: 0";
-    } else if (pcScore > 2) {
+    } else if (pcScore > 4) {
       alert("PC Wins!");
       plScore = 0;
       pcScore = 0;
